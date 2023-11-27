@@ -1,0 +1,38 @@
+.ByPriority{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.ByPriority-kanban-column{
+    flex: 1 1 30px;
+}
+#PriorityTickedId{
+    color: #3c3e3e;
+}
+.PriorityTicketUserIDandDpDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PriorityticketText{
+    color: #3c3e3e;
+    font-size: small;
+    border: 1px solid #a5a5a5;
+    padding: 0px 8px;
+    border-radius: 5px;
+}
+.Priority-ticket-card{
+    border: 1px solid #686969;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 2px 1px #888888;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+}
+@media (max-width: 1000px) {
+    .ByPriority {
+      flex-direction: column;
+      padding: 0px 10vw;
+    }
+  }
