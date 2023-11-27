@@ -2,6 +2,32 @@
 
 This project is a part of a college campus hiring assignment where students are tasked to create an interactive Kanban board application using ReactJS. The primary goal is to interact with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment).
 
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/rohitsingh2901/QuickSell-KanbanBoard.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd QuickSell-KanbanBoard
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the application:
+```bash
+npm start
+```
+
+
 ## Design Overview
 
 ### Display State
@@ -32,6 +58,47 @@ The application allows users to perform the following actions:
 2. **Sorting Options**:
    - **Priority**: Arranges tickets in descending order of priority.
    - **Title**: Sorts tickets in ascending order based on their title.
+  
+
+## Folder Structure
+
+```
+src/
+└── components/
+    ├── filter/
+    │   ├── DisplayOption/
+    │   │   ├── Display.js
+    │   │   └── Display.css
+    │   ├── SortOption/
+    │   │   ├── SortOption.js
+    │   │   └── SortOption.css
+    │   ├── Options.js
+    │   └── Options.css
+    └── KanbanBoard/
+        ├── Options/
+        │   ├── ByPriority/
+        │   │   ├── ByPriority.js
+        │   │   └── ByPriority.css
+        │   ├── ByStatus/
+        │   │   ├── ByStatus.js
+        │   │   ├── ByStatus.css
+        │   │   └── UserIcon.js
+        │   └── ByUser/
+        │       ├── ByUser.js
+        │       └── ByUser.css
+        ├── KanbanBoard.js
+        └── KanbanBoard.css
+```
+
+## Requirements
+
+- React.js for front-end development.
+- Pure CSS code only, without using any CSS libraries (e.g., Bootstrap, Tailwind).
+- Font Awesome. The internet's icon library + toolkit. 
+
+## API Endpoint
+
+API Endpoint: https://api.quicksell.co/v1/internal/frontend-assignment
 
 ## Priority Levels
 
@@ -42,8 +109,8 @@ The application allows users to perform the following actions:
 - **No Priority (Priority level 0)**
 
 
-## Usage
+## Author
 
-1. Clone this repository.
-2. Run `npm install` to install dependencies.
-3. Run `npm start` to launch the application.
+Rohit Singh
+singhrohitrrr@gmail.com
+
